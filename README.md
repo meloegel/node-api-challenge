@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned that express is to node like what react is to JS. Express is a framework for node. Also learned that express can support middleware and routing.
+
 - [ ] Describe Middleware?
+
+middleware is an array of functions that get executed in the order they are introduced into the server code. Middleware functions are functions that have access to the request object ( req ), the response object ( res ), and the next function in the application's request-response cycle. The next function is a function in the Express router which, when invoked, executes the middleware
 
 - [ ] Describe a Resource?
 
+When designing RESFUL web API everything is a resource.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A status 200 response it means status OK
+
 - [ ] How can we partition our application into sub-applications?
+
+Using Express routers you can make your application modular and easier to maintain.
 
 ## Minimum Viable Product
 
